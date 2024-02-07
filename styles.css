@@ -1,0 +1,174 @@
+:root {
+  --cor-fundo: #00030c;
+  --branco-principal: #ffffff;
+  --cinza-secundaio: #c0c0c0;
+
+  --btn-azul: #167bf7;
+  --btn-azul-hover: #4d9dff;
+
+  --font-principal: "Inter";
+}
+
+/* ==== RESET ============================= */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* ==== BODY ============================= */
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--branco-principal);
+  font-family: var(--font-principal);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ==== SECTION | Primario ============================= */
+
+.primario {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+  margin: 0 6em;
+}
+
+.container__titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+.container__botao {
+  background-color: var(--btn-azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--branco-principal);
+
+  display: block;
+
+  margin-bottom: 1em;
+}
+
+.container__botao:hover {
+  background-color: var(--btn-azul-hover);
+  color: var(--cor-fundo);
+}
+
+.botao_secundario {
+  background-color: transparent;
+  border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+  font-size: 12px;
+  color: var(--cinza-secundaio);
+}
+
+/* ==== SECTION | Secundario ============================= */
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.descricao_titulo {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--branco-principal);
+
+  margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+  color: var(--cinza-secundaio);
+}
+
+/* ==== SECTION | Terciario ============================= */
+.secundario__botao {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container__descricao {
+  padding: 2em;
+}
+
+/* ==== SECTION | Quartenario ============================= */
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  margin: 5em 0;
+}
+
+.dispositivos__titulos {
+  font-size: 48px;
+  color: var(--branco-principal);
+}
+
+.lista__item {
+  font-size: 32px;
+  color: var(--branco-principal);
+}
+
+/* ==== SECTION | Rodapé ============================= */
+.rodape {
+  text-align: center;
+  margin: 8em 3em 5em 3em;
+}
+
+.rodape__logo {
+  margin-bottom: 40px;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  list-style-type: none;
+}
+
+.lista__link a {
+  color: var(--branco-principal);
+}
+
+.rodape__texto {
+  color: var(--cinza-secundaio);
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.lista__link a:hover {
+  color: var(--btn-azul);
+}
+
+.lista__link a:active {
+  color: purple;
+}
