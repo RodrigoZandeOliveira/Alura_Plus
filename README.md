@@ -1,4 +1,4 @@
-[**ALURA PLUS**]()
+[**ALURA PLUS**](https://rodrigozandeoliveira.github.io/alura_plus/)
 
 ![Alura Plus preview](RodrigoZandeOliveira_Exercise_AluraPlus_Preview.jpg)
 
@@ -15,5 +15,5 @@
 **OBERVATIONS**
 
 - I learned how to use "variables" to make the css code easy to edit/customize;
-- During the course we had some contact with HTML & CSS;
+- We used Grid & Flexbox to position the elements throughout the page;
 - [About Alura](https://www.alura.com.br);
