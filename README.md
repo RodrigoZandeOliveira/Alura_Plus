@@ -1,6 +1,6 @@
 [**ALURA PLUS**]()
 
-![Alura Plus preview]()
+![Alura Plus preview](RodrigoZandeOliveira_Exercise_AluraPlus_Preview.jpg)
 
 ##
 
