@@ -1,4 +1,4 @@
-[**ALURA PLUS**](https://rodrigozandeoliveira.github.io/alura_plus/)
+[**ALURA PLUS**](https://rodrigozandeoliveira.github.io/Alura_Plus/)
 
 ![Alura Plus preview](RodrigoZandeOliveira_Exercise_AluraPlus_Preview.jpg)
 
